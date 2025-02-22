@@ -1,0 +1,16 @@
+# Ignore SWIG-generated wrapper files
+*_wrap.cxx
+*_wrap.cpp
+*_wrap.h
+*_wrap.o
+*_wrap.java
+*_wrap.py
+
+# Ignore SWIG-generated build files
+swig_generated/
+swig_temp/
+*.so
+*.dll
+*.dylib
+*.pyc
+
