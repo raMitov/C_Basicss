@@ -1,0 +1,8 @@
+# ninja log v6
+1	27	1740224867784967121	build.ninja	673ed14cecee83a7
+1	78	1740224867791671644	CMakeFiles/SoftUni_C___Basics.dir/Birthday.cpp.o.ddi	76c74d6988b8ed34
+79	82	1740224867872518284	CMakeFiles/SoftUni_C___Basics.dir/CXX.dd	bfaf8087d9fce83d
+79	82	1740224867872518284	/home/garjo/MostProjects/C work/SoftUni-C++-Basics/cmake-build-debug/CMakeFiles/SoftUni_C___Basics.dir/CXXModules.json	bfaf8087d9fce83d
+79	82	1740224867872518284	CMakeFiles/SoftUni_C___Basics.dir/Birthday.cpp.o.modmap	bfaf8087d9fce83d
+82	478	1740224867872518284	CMakeFiles/SoftUni_C___Basics.dir/Birthday.cpp.o	6550e85c8fd21614
+479	561	1740224868269395408	SoftUni_C___Basics	8a5bfe65d1fb2c5

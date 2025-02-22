@@ -1,0 +1,19 @@
+# ninja log v6
+1	85	1740228579305025537	CMakeFiles/FourthEx.dir/main.cpp.o.ddi	784cbda1d7c0f961
+85	88	1740228579392899230	CMakeFiles/FourthEx.dir/CXX.dd	73a1c3fc5eae1196
+85	88	1740228579392899230	/home/garjo/MostProjects/C work/SoftUni-C++-Basics/FourthEx/cmake-build-debug/CMakeFiles/FourthEx.dir/CXXModules.json	73a1c3fc5eae1196
+85	88	1740228579392899230	CMakeFiles/FourthEx.dir/main.cpp.o.modmap	73a1c3fc5eae1196
+88	543	1740228579392899230	CMakeFiles/FourthEx.dir/main.cpp.o	2da9bac0ebf99417
+546	633	1740228579850014507	FourthEx	d876cd41c7b9f89d
+4	118	1740229014478386036	CMakeFiles/FourthEx.dir/main.cpp.o.ddi	784cbda1d7c0f961
+119	122	1740229014593386570	CMakeFiles/FourthEx.dir/CXX.dd	73a1c3fc5eae1196
+119	122	1740229014593386570	/home/garjo/MostProjects/C work/SoftUni-C++-Basics/FourthEx/cmake-build-debug/CMakeFiles/FourthEx.dir/CXXModules.json	73a1c3fc5eae1196
+119	122	1740229014593386570	CMakeFiles/FourthEx.dir/main.cpp.o.modmap	73a1c3fc5eae1196
+122	583	1740229014596830433	CMakeFiles/FourthEx.dir/main.cpp.o	2da9bac0ebf99417
+583	673	1740229015057388724	FourthEx	d876cd41c7b9f89d
+3	89	1740229260572468728	CMakeFiles/FourthEx.dir/main.cpp.o.ddi	784cbda1d7c0f961
+89	96	1740229260658469736	CMakeFiles/FourthEx.dir/CXX.dd	73a1c3fc5eae1196
+89	96	1740229260658469736	/home/garjo/MostProjects/C work/SoftUni-C++-Basics/FourthEx/cmake-build-debug/CMakeFiles/FourthEx.dir/CXXModules.json	73a1c3fc5eae1196
+89	96	1740229260658469736	CMakeFiles/FourthEx.dir/main.cpp.o.modmap	73a1c3fc5eae1196
+96	563	1740229260665469818	CMakeFiles/FourthEx.dir/main.cpp.o	2da9bac0ebf99417
+563	636	1740229261132475295	FourthEx	d876cd41c7b9f89d
