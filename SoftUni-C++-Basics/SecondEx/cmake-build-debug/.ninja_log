@@ -1,7 +1,0 @@
-# ninja log v6
-1	86	1740225558633825260	CMakeFiles/SecondEx.dir/main.cpp.o.ddi	4685b6c7cf67b4b4
-86	89	1740225558723113740	CMakeFiles/SecondEx.dir/CXX.dd	8fc70150f41a14e0
-86	89	1740225558723113740	/home/garjo/MostProjects/C work/SoftUni-C++-Basics/SecondEx/cmake-build-debug/CMakeFiles/SecondEx.dir/CXXModules.json	8fc70150f41a14e0
-86	89	1740225558723113740	CMakeFiles/SecondEx.dir/main.cpp.o.modmap	8fc70150f41a14e0
-90	484	1740225558723113740	CMakeFiles/SecondEx.dir/main.cpp.o	e27256c049338653
-485	566	1740225559118122551	SecondEx	4dc58b55eed759cb

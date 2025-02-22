@@ -1,3 +1,0 @@
-/home/garjo/MostProjects/C work/SoftUni-C++-Basics/FourthEx/cmake-build-debug/CMakeFiles/FourthEx.dir
-/home/garjo/MostProjects/C work/SoftUni-C++-Basics/FourthEx/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/garjo/MostProjects/C work/SoftUni-C++-Basics/FourthEx/cmake-build-debug/CMakeFiles/rebuild_cache.dir

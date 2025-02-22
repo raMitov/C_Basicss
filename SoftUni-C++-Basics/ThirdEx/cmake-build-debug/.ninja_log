@@ -1,7 +1,0 @@
-# ninja log v6
-0	82	1740226884615158965	CMakeFiles/ThirdEx.dir/main.cpp.o.ddi	ef59e47471da5670
-82	89	1740226884704091810	CMakeFiles/ThirdEx.dir/CXX.dd	a7d2a12552be31a5
-82	89	1740226884704091810	/home/garjo/MostProjects/C work/SoftUni-C++-Basics/ThirdEx/cmake-build-debug/CMakeFiles/ThirdEx.dir/CXXModules.json	a7d2a12552be31a5
-82	89	1740226884704091810	CMakeFiles/ThirdEx.dir/main.cpp.o.modmap	a7d2a12552be31a5
-89	629	1740226884704156902	CMakeFiles/ThirdEx.dir/main.cpp.o	ad72f86711d509d
-631	705	1740226885246144687	ThirdEx	2c42784efdc141f4
