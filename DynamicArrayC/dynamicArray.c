@@ -5,7 +5,7 @@ typedef struct {
     int *data;
     int size;
     int capacity;
-} DynamicArray
+} DynamicArray;
 
 DynamicArray createArray(int capacity){
     DynamicArray arr;
@@ -38,7 +38,8 @@ void printArray(DynamicArray *arr){
 void freeArray(DynamicArray *arr){
     free(arr->data);
 }
-int main(){
+int main()
+{
     DynamicArray arr = createArray(2);
     insert(&arr, 1);
     insert(&arr, 2);
