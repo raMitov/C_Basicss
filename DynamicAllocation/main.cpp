@@ -93,9 +93,48 @@ void subtractMatrices(std::vector<std::vector<float>> &matrix1, const std::vecto
         }
     }
 }
+//matrix multiplication
+void multiplyMatrices(const std::vector<std::vector<float>> &matrix1,
+                      const std::vector<std::vector<float>> &matrix2,
+                      std::vector<std::vector<float>> &result) {
+    if (matrix1[0].size() != matrix2.size()) {
+        return; // Matrix multiplication is not possible
+    }
+
+    int rows = matrix1.size();
+    int cols = matrix2[0].size();
+    int common_dim = matrix1[0].size();
+
+    result.assign(rows, std::vector<float>(cols, 0));
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            for (int k = 0; k < common_dim; k++) {
+                result[i][j] += matrix1[i][k] * matrix2[k][j];
+            }
+        }
+    }
+}
+//transponating matrix
+void transponateMatrix(const std::vector<std::vector<float>> &matrix) {
+    std::vector<std::vector<float>> result(matrix[0].size(), std::vector<float>(matrix.size(), 0));
+    for (int i = 0; i < matrix.size(); i++) {
+        for (int j = 0; j < matrix[0].size(); j++) {
+            result[j][i] = matrix[i][j];
+        }
+    }
+    for (int i = 0; i < result.size(); i++) {
+        for (int j = 0; j < result[0].size(); j++) {
+            std::cout << result[i][j] << " ";
+        }
+    }
+}
+
+
+
 int main() {
-    int n4a = -123456789;
-    std::cout << sumDigits(n4a) << std::endl;
+    // int n4a = -123456789;
+    // std::cout << sumDigits(n4a) << std::endl;
     //EX3
     // int n3;
     // std::cin >> n3;
