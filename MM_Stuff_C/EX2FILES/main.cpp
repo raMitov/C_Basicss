@@ -112,6 +112,9 @@ int main() {
         fprintf(evenFile, "%d\n", evenNumbers->data);
         evenNumbers = evenNumbers->next;
     }
+    freeList(allNumbers);
+    freeList(evenNumbers);
+    freeList(oddNumbers);
     return 0;
 }
 

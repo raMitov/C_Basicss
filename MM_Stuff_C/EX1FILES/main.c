@@ -50,12 +50,11 @@ void countWordsFromFile(const char* fileName) {
                 count++;
                 inWord = 0;
             }
-        } else {
+        }
+        else {
             inWord = 1;
         }
     }
-
-    // Count the last word if file doesn't end with whitespace
     if (inWord) {
         count++;
     }
