@@ -17,6 +17,6 @@ int main(void) {
     pthread_create(&tid2, NULL, increment, &n);
     pthread_join(tid, NULL);
     pthread_join(tid2, NULL);
-    printf("Final value of n is %d\n", n);4
+    printf("Final value of n is %d\n", n);
     return 0;
 }
