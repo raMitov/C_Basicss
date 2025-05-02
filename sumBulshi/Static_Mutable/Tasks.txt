@@ -1,0 +1,11 @@
+static, mutable (C++)
+
+static class members are shared by all instances
+geeksforgeeks.org
+; mutable members can be modified in const methods
+geeksforgeeks.org
+.
+
+    Task: Define a C++ class with a static int counter and increment it in the constructor. In main(), create multiple instances and print ClassName::counter to show one shared value. (Concept: static member variable)
+
+    Task: Define a class with a mutable int accessCount. In a const method that returns some value, increment accessCount. Show that you can modify accessCount even though the method is const. (Concept: mutable in const context)

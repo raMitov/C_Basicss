@@ -1,0 +1,9 @@
+Templates (C++)
+
+Templates allow writing generic code. A function template works with any type
+geeksforgeeks.org
+.
+
+    Task: Write a function template template<typename T> T maxValue(T a, T b) that returns the larger of two values. Test it with int and double. (Concept: function template)
+
+    Task: Write a class template Pair<T1,T2> that holds two values of (possibly different) types and has a constructor and getters. Instantiate it with Pair<int,string>. (Concept: class template)

@@ -1,0 +1,7 @@
+Interrupt (Embedded)
+
+Interrupts allow asynchronous event handling. In C, this is often simulated by signal handlers.
+
+    Task: Write a C program that registers a handler for SIGINT (Ctrl+C) using signal() which sets a volatile sig_atomic_t flag. In main(), loop until that flag is set. (Concept: interrupt-like event handling and use of volatile)
+
+    Task: (Embedded-style) Write pseudo-C code for an interrupt service routine (ISR) that triggers on a timer: declare volatile int tick, and in ISR_timer(), increment tick. In main(), run a loop that checks tick. (Concept: ISR and volatile)

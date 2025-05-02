@@ -1,0 +1,11 @@
+STL Containers (list, queue, stack, map) (C++)
+
+The C++ STL provides common containers. For example, std::list is a doubly-linked list
+geeksforgeeks.org
+and std::map is a sorted key/value store.
+
+    Task: Use std::list<int> to store integers. Insert elements at front and back, remove an element, then iterate and print all values. (Concept: list operations)
+
+    Task: Given a std::vector<int>, use std::stack<int> to check if it is a palindrome: push all elements onto a stack and then compare by popping. (Concept: LIFO stack from STL)
+
+    Task: Count word frequency: read words into a std::map<std::string,int>, increment counts, and then print each word with its count. (Concept: associative map usage)

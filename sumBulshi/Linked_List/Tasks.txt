@@ -1,0 +1,9 @@
+Linked List
+
+A linked list is a non-contiguous data structure of nodes (each node points to next)
+geeksforgeeks.org
+. Tasks often involve insertion/traversal.
+
+    Task: Implement a simple singly-linked list in C: write functions to insert an integer at the head and to traverse/print all elements. (Concept: pointers, dynamic allocation, linked list basics)
+
+    Task: Write a C function to reverse a singly-linked list in place. (Concept: pointer manipulation in linked lists)

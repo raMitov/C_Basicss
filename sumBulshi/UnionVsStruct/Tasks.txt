@@ -1,0 +1,9 @@
+Union vs Struct
+
+In C, a struct allocates separate storage for each member, whereas a union shares storage among its members
+geeksforgeeks.org
+.
+
+    Task: Define a C struct with an int and a float, and a union with the same members. In code, assign values to each and print their sizes and contents. (Concept: memory layout of structs vs unions)
+
+    Task: Use a C union of an int and a char[4] to pack an integer into bytes. Write to the int member and then read the char array to examine the byte values. (Concept: union aliasing and shared memory)

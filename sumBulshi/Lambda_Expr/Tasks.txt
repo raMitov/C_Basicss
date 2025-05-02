@@ -1,0 +1,9 @@
+Lambda Expressions (C++)
+
+C++11 introduced lambda expressions for inline anonymous functions, often used with STL algorithms
+geeksforgeeks.org
+.
+
+    Task: Given a std::vector<int> v, use std::sort(v.begin(), v.end(), [](int a,int b){return abs(a)<abs(b);}); to sort by absolute value. (Concept: lambda as custom comparator)
+
+    Task: Use std::for_each(v.begin(), v.end(), [](int& x){ x *= 2; }); to double all elements in a vector. (Concept: lambda with std::for_each)

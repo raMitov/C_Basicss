@@ -1,0 +1,9 @@
+Struct Size (Padding)
+
+Struct size can include padding for alignment. Reordering members can change sizeof
+geeksforgeeks.org
+.
+
+    Task: Given a C struct containing char, int, char, use sizeof to find its size. Then reorder members (e.g. put int first) and observe how the size changes. (Concept: struct padding and alignment)
+
+    Task: Write a C program that defines two structs with the same fields in different orders and prints their sizeof. (Concept: alignment and padding in structs)

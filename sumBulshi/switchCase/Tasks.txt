@@ -1,0 +1,8 @@
+Conditionals (if/else and switch) control program flow. For multiple discrete cases, use switch, remembering that break is needed to prevent fall-through
+geeksforgeeks.org
+.
+
+    Task: Map an integer (1–7) to weekday names using a switch statement in C, including a default case for invalid input. (Concept: switch-case logic)
+
+    Task: Assign a grade (A–F) based on an exam score (0–100) using if/else if in C. (Concept: chained if/else)
+

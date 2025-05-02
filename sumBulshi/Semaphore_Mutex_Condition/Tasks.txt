@@ -1,0 +1,11 @@
+Semaphore, Mutex, Condition (Synchronization)
+
+These are threading primitives. A mutex locks data, a semaphore counts available resources, and a condition variable allows waiting for events
+stackoverflow.com
+.
+
+    Task: In C with pthreads, create two threads that increment a shared integer. Use a pthread_mutex_t to protect increments. (Concept: mutex locking)
+
+    Task: Use a POSIX semaphore (sem_t) to limit access: create two threads where one sem_wait()s on a semaphore and the other calls sem_post(). (Concept: semaphore synchronization)
+
+    Task: In C with pthreads, have one thread wait on a pthread_cond_t condition until another thread signals it. (Concept: condition variable wait/notify)

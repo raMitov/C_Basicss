@@ -1,0 +1,9 @@
+Exceptions (C++)
+
+C++ exceptions allow error handling via try/catch instead of crashing
+rollbar.com
+.
+
+    Task: Write a C++ function that throws a std::runtime_error when given a negative input. In main(), call it inside a try block and catch the exception to print an error message. (Concept: throw/catch)
+
+    Task: Parse a C++ string to an integer. If the string contains non-digits, throw std::invalid_argument. Demonstrate catching this exception. (Concept: exception-based error handling)

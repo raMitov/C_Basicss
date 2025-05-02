@@ -1,0 +1,9 @@
+Operator Overloading (C++)
+
+Operator overloading lets you define behavior of operators for classes
+programiz.com
+.
+
+    Task: Create a C++ class Complex { double re, im; } and overload the operator+ to add two Complex numbers. Test adding two instances. (Concept: overloading binary +)
+
+    Task: Overload the operator<< for a class Vec2D { int x,y; } so that std::cout << v; prints both coordinates. (Concept: overloading insertion operator)

@@ -1,0 +1,8 @@
+Bit-level tasks are common in system programming, testing use of bitwise operators (AND, OR, XOR, shifts)
+medium.com
+.
+
+    Task: Write a C function that counts the number of 1-bits in a uint32_t (use bitwise AND/SHIFT). (Concept: bitwise operations)
+
+    Task: Swap the bits at positions i and j of an unsigned integer without using extra memory. (Concept: bit masking and shifts)
+

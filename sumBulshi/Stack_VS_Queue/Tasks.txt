@@ -1,0 +1,7 @@
+Stack vs Queue (Abstract Data Types)
+
+A stack (LIFO) and a queue (FIFO) are basic linear data structures.
+
+    Task: Using a C array or std::vector, implement a stack with push and pop operations. Demonstrate pushing and popping integers. (Concept: LIFO behavior)
+
+    Task: Using a C array or C++ std::queue, implement a queue with enqueue and dequeue. Demonstrate FIFO behavior (e.g. queue up {1,2,3}, then dequeue). (Concept: FIFO behavior)

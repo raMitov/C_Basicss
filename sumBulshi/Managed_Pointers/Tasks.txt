@@ -1,0 +1,9 @@
+Managed Pointers (C++)
+
+Modern C++ uses smart pointers (std::unique_ptr, std::shared_ptr) to manage heap objects automatically
+geeksforgeeks.org
+.
+
+    Task: Use std::unique_ptr<int> to allocate and manage an integer. For example, std::unique_ptr<int> p(new int(42)); and show that it deletes automatically. (Concept: unique_ptr ownership)
+
+    Task: Create two std::shared_ptr<std::string> variables pointing to the same string, then reset one and show the string persists until all pointers are gone. (Concept: shared_ptr reference counting)

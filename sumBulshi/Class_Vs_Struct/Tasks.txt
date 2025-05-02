@@ -1,0 +1,5 @@
+In C++, a class and struct are similar except for default access. By default, struct members are public while class members are private.
+
+    Task: Declare a C++ struct Point { int x,y; }; and assign to its members directly (Point p; p.x=10;). Then declare a class Point2 { int x,y; }; and attempt Point2 q; q.x=10;. Observe the compile error for class. (Concept: default public vs private)
+
+    Task: Convert the above struct into a class by adding public getters/setters so that external code can access x. (Concept: controlling access in class)

@@ -1,0 +1,7 @@
+static vs dynamic, const and reinterpret_cast (C/C++)
+
+Demonstrate static vs dynamic allocation, and use casting keywords.
+
+    Task: In C, declare a static array int arr[10] and allocate a dynamic array int* dyn = malloc(10*sizeof(int)). Initialize both and print addresses or values. (Concept: static vs heap memory)
+
+    Task: In C++, given const int x = 5; const int* px = &x;, use const_cast<int*> to cast away constness and modify the value (undefined behavior, but exercise). Also use reinterpret_cast to cast an int pointer to a char* and inspect individual bytes of the integer. (Concept: casting operators)

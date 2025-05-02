@@ -1,0 +1,7 @@
+Image Buffer Address
+
+Embedded tasks often involve image buffers. Computing pixel addresses requires pointer arithmetic.
+
+    Task: Given a 1D array uint8_t buffer[width*height] representing a grayscale image, write a function uint8_t* pixelAt(uint8_t* buf, int width, int x, int y) that returns a pointer to the pixel at (x,y). (Concept: 2D-to-1D indexing)
+
+    Task: For an RGB image stored as uint8_t buf[height][width][3], write C code to set the (r,g,b) values of a pixel at (x,y) by computing the correct address. (Concept: pointer arithmetic for multi-channel images)

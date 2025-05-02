@@ -1,0 +1,9 @@
+virtual / abstract / override (C++)
+
+Virtual functions allow polymorphism; a pure virtual makes a class abstract
+geeksforgeeks.org
+. The override keyword ensures you are overriding a base method.
+
+    Task: Create a C++ base class with a virtual void speak(), and a derived class that overrides it. Use a base-class pointer (Base* p = new Derived) and call p->speak(). (Concept: virtual dispatch)
+
+    Task: Define an abstract C++ class with a pure virtual method (e.g. virtual void draw() = 0;), then implement a derived class that defines draw(). Instantiate the derived class and call draw(). (Concept: abstract classes and pure virtual functions)

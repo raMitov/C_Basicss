@@ -1,0 +1,9 @@
+Process vs Thread
+
+A process has its own address space; threads share memory within the same process
+stackoverflow.com
+.
+
+    Task: In C, use fork() to create a child process. Have parent and child print different messages (use if (fork()==0)). (Concept: process creation and separate address spaces)
+
+    Task: In C (pthreads) or C++ (<thread>), create a new thread that increments a shared counter while the main thread waits. (Concept: thread creation and shared memory)

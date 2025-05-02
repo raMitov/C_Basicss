@@ -1,0 +1,9 @@
+public, private, protected (C++)
+
+Access modifiers control member visibility
+programiz.com
+.
+
+    Task: Define a C++ class Secret with a private integer and a public setter/getter. Try accessing the private member from main() (should fail) and through the getter (should work). (Concept: public vs private access)
+
+    Task: Create a base class with a protected member, then derive a subclass that reads/writes that member. Show that code outside the class cannot access the protected member, but the subclass can. (Concept: protected access)

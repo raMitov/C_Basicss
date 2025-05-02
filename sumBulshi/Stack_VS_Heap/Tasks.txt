@@ -1,0 +1,9 @@
+Stack vs Heap
+
+C variables (like local arrays) are on the stack; dynamic memory (malloc) is on the heap
+geeksforgeeks.org
+.
+
+    Task: In C, declare a large array inside main (stack) and another using malloc (heap). Print their addresses (printf("%p", ...)) to show they reside in different regions. (Concept: stack vs heap allocation)
+
+    Task: Write a C function that returns a pointer to a locally declared array (wrong usage) and then fix it by allocating the array on the heap with malloc. (Concept: stack lifetime vs heap lifetime)

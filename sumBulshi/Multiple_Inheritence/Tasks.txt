@@ -1,0 +1,9 @@
+Multiple Inheritance (C++)
+
+C++ allows inheriting from multiple bases. A classic issue is the Diamond Problem when bases share a common ancestor
+geeksforgeeks.org
+.
+
+    Task: Define classes Base with a method void f(), A : public Base, B : public Base, and then C : public A, public B. In main(), attempt to call C c; c.f(); and observe the ambiguity. (Concept: basic multiple inheritance conflict)
+
+    Task: Modify the above with virtual inheritance (class A : virtual public Base, etc.) and then call c.f() successfully. (Concept: virtual inheritance resolving the diamond problem)

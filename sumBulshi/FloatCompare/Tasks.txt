@@ -1,0 +1,7 @@
+Floating-point comparisons must allow for rounding error using an epsilon tolerance
+geeksforgeeks.org
+.
+
+    Task: Implement a C++ function bool approxEqual(float a, float b, float eps) that returns true if |a - b| < eps. (Concept: floating-point comparison with epsilon)
+
+    Task: Given a C array of float, count how many elements are “effectively” equal to a given value within a tolerance (e.g. fabs(x - target) < 1e-6). (Concept: comparing floats safely)

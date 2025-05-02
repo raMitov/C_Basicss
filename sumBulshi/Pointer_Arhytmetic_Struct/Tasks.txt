@@ -1,0 +1,9 @@
+Pointer Arithmetic to Struct (ptr++)
+
+Incrementing a pointer to a struct advances by the size of that struct
+stackoverflow.com
+.
+
+    Task: In C, define an array of a struct (e.g. struct Point { int x, y; };). Use a Point* p = array; and demonstrate that p++ moves to the next element (sizeof(Point) bytes ahead). (Concept: pointer arithmetic on structs)
+
+    Task: Using a pointer p to the first element of a struct array, set p->x in a loop using p++. Verify that each struct in the array is modified. (Concept: iterating structs with pointers)

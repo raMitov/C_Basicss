@@ -1,0 +1,9 @@
+Virtual Destructor (C++)
+
+A virtual destructor in a base class ensures that when deleting a derived object through a base pointer, both destructors run
+geeksforgeeks.org
+.
+
+    Task: Write a C++ class Base { /* no virtual destructor */ } and class Derived : public Base. Allocate Derived* d = new Derived; Base* b = d; delete b;. Observe that Derived destructor is not called. (Concept: missing virtual destructor)
+
+    Task: Make Base’s destructor virtual and repeat the above. Show that now both Derived and Base destructors execute. (Concept: proper cleanup with virtual destructor)

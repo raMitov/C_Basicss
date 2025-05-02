@@ -1,0 +1,7 @@
+Virtual Memory
+
+Modern OS’s give each process a large virtual address space. Practically, you can compute page number and offset from a virtual address.
+
+    Task: In C, given a 32-bit virtual address and a page size (power of two), compute the page number and offset. For example, if page size is 4096 (2^12), then page = addr >> 12, offset = addr & 0xFFF. (Concept: virtual address splitting into page/frame)
+
+    Task: Given an array int pageTable[NUM_PAGES] mapping virtual page to physical frame, and a virtual address, compute the corresponding physical address. (Concept: simple page table lookup)

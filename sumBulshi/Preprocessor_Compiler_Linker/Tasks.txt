@@ -1,0 +1,11 @@
+Preprocessor, Compiler, Linker
+
+In C/C++ build process, the preprocessor expands macros/includes, the compiler translates to object code, and the linker combines object files into an executable
+stackoverflow.com
+stackoverflow.com
+.
+
+    Task: Write a C header (utils.h) with a #define macro (e.g. #define SQUARE(x) ((x)*(x))) and a C source file that includes it and uses the macro. (Concept: preprocessor macro expansion)
+
+    Task: Create two C source files: one defines a function (int add(int,int)) and one main() that calls it (with extern declaration). Compile and link them together. (Concept: compiler output and linker combining modules)
+

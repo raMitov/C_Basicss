@@ -1,0 +1,9 @@
+Function Pointer
+
+C function pointers allow calling functions dynamically
+geeksforgeeks.org
+.
+
+    Task: Define two C functions (e.g. add(int,int) and subtract(int,int)), then use a function pointer to call one based on user input. (Concept: declaring and using function pointers)
+
+    Task: Implement a simple callback system: write a function operate(int a, int b, int (*op)(int,int)) that calls op(a,b). Use it with different functions. (Concept: passing function pointers as arguments)

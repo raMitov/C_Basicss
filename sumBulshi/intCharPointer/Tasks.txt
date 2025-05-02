@@ -1,0 +1,5 @@
+This covers differences between integer types and character pointers. An int holds numeric data, while char* points to text (null-terminated string) in memory.
+
+    Task: Write a C function that takes a char* string of digits (e.g. "1234") and returns its integer value. (Concept: pointer-to-char and numeric conversion)
+
+    Task: Demonstrate pointer arithmetic by iterating through a string (char*) and an array of integers (int*) to sum all elements. (Concept: pointer arithmetic on different types)
