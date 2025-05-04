@@ -2,6 +2,12 @@ Interview tasks may require exiting loops early with break or similar control fl
 softwareengineering.stackexchange.com
 .
 
-    Task: Write a C loop that scans an array of integers and stops when it finds the first negative number, then returns its index. (Concept: for loop and break)
+    Task: Write a C loop that scans an array of 
+    integers and stops when it finds the first 
+    negative number, then returns its index. 
+    (Concept: for loop and break)
 
-    Task: Use a for loop to sum values until a sentinel value (e.g. 0) is encountered, then exit the loop. (Concept: loop control and early exit)
+    Task: Use a for loop to sum values until 
+    a sentinel value (e.g. 0) is encountered, 
+    then exit the loop. (Concept: loop control 
+    and early exit)
