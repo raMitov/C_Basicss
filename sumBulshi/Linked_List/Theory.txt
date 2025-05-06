@@ -1,0 +1,12 @@
+Briefly describe how a singly linked list is structured and how the nodes are connected. What pointers are involved?
+A signly linked list is constructed with a head Node (Type data, Node * next) and the head points to the next
+also every other element is stored and pointed to by the previous node in a linear fashion. There are only pointers to next which
+can either be new node or NULL if its the end of the linked list.
+Given struct Node { int value; Node *next; }; and Node *head, how would you insert a new node at the head of the list?
+Node * newNode = malloc(sizeof(Node));
+newNode -> next = head;
+head = newNode;
+
+
+What is the time complexity of inserting a node at the end of a singly linked list if you have no tail pointer, and why?
+The time complexity is O(n) becase you have to traverse the whole linked list.
